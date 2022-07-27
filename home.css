@@ -1,0 +1,331 @@
+.subsc{
+    background-image: linear-gradient(90deg,rgb(9, 54, 54),rgb(13, 13, 42),rgb(9, 54, 54));
+}
+#indi{
+   position: relative;
+   background-color: black;
+   top:50px ;
+   height:15px;
+   width: 15px;
+   border-radius: 50%;
+}
+span{
+  color: crimson;
+}
+#rr{
+    right: -50px;
+    z-index: 2;
+    bottom: 150px;
+    position: fixed;
+    transform: rotate(90deg);
+    background-color: skyblue;
+}
+#myBtn {
+    display:block;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:skyblue;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  #text{
+    text-decoration: none;
+    color: aqua;
+  }
+  #ic{
+    font-size: 30px;
+    color: white;
+    border: 2px solid;
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: black;
+  }
+  .nbg{
+    background-image: linear-gradient(90deg,rgb(9, 9, 68),gray,rgb(9, 9, 68));
+  }
+  #kb{
+    background-color: rgb(9, 9, 68);
+  }
+  .bg{
+    background-color: rgb(9, 9, 68);
+    
+  }
+  .bg1{
+    background-color: rgb(9, 9, 68);
+    
+  }
+  #brand{
+    font-style: bold;
+    font-family:fantasy;
+    color: darksalmon;
+}
+
+#demo{
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-radius: 50px;
+    color: aqua;
+}
+#ic{
+ font-size: 30px;
+ color: white;
+ border: 2px solid;
+ height: 40px;
+ width: 50px;
+ border-radius: 50px;
+ background-color: black;
+}
+h4
+{
+    margin-top: 30px;
+    text-align: center;
+}
+h1
+{
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+a
+{
+  text-decoration: none;
+}
+#id1
+{
+  display: inline;
+}
+h5
+{
+  text-align: center;
+}
+#card1
+{
+  text-align: center;
+}
+#card2
+{
+  left: 3px;
+}
+#heading1
+{
+  margin-top: 10px;
+  font-weight: bold; 
+}
+#search
+{
+  width: 50px;
+}
+
+ .bg1{
+     background-color: rgb(9, 9, 68);
+     
+   }
+   #info3{
+     
+         background-image: linear-gradient(90deg,rgb(9, 9, 68),gray,rgb(9, 9, 68));
+       
+   }
+   #info2{
+     
+         background-image: linear-gradient(90deg,rgb(9, 54, 54),rgb(13, 13, 42),rgb(9, 54, 54));
+       }
+  #info1{
+     background-image: linear-gradient(90deg,rgb(9, 9, 68),gray,rgb(9, 9, 68));
+       }
+ body
+{
+  position: absolute;
+  background-image: linear-gradient(90deg,rgb(252, 174, 252),rgb(159, 159, 248),rgb(252, 174, 252));
+} 
+.footer1
+{
+ color: blueviolet;
+}
+#clr1
+{
+  color: blue;
+  position: fixed;
+  right: -10px;
+  bottom:200px;
+  transform: rotate(0deg);
+
+
+  
+}
+#clr2
+{
+  background-color: green;
+  position: fixed;
+  right: -8px;
+  bottom:295px;
+  transform: rotate(0deg);
+  z-index: 212;
+  
+  
+}
+
+
+#brand{
+ font-style: bold;
+ font-family:fantasy;
+ color: darksalmon;
+}
+.btn1
+{
+  border: violet;
+  border-radius: 10px;
+}
+
+#id3
+{
+  position: relative;
+  width: 100%;
+
+}
+#text{
+ text-decoration: none;
+
+ color: aqua;
+}#sn{
+ 
+     background-image: linear-gradient(90deg,rgb(9, 9, 68),gray,rgb(9, 9, 68));
+  
+}
+.child{
+   
+ border-bottom: 2px solid rgb(8, 43, 67)
+ 
+}
+
+.with{
+ 
+
+ font-size: 25px;
+
+}
+.nbg{
+    background-image: linear-gradient(90deg,rgb(9, 9, 68),gray,rgb(9, 9, 68));
+  }
+  .corousal-item h2{
+      color: darkred;
+  }
+  #id1{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+  /* footer{
+    background-color:saddlebrown; */
+  
+  #carouselExampleIndicators{
+    opacity: 1;
+    background-image: url();
+  }
+    
+  
+  #A{
+    text-align: center;
+    color:blue;
+    
+    width: 500PX;
+    height: 300PX;
+    border-radius: 20px; 
+  }
+  .S{
+    color: darkred;
+  }
+  #W{
+    color: crimson;
+    text-align: center;
+    
+  }
+  #ic{
+    font-size: 30px;
+    color: white;
+    border: 2px solid;
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: black;
+  }
+  #text{
+    text-decoration: none;
+    color: aqua;
+  }
+  #myBtn
+   {
+     background-color: rgb(255, 138, 245);
+     position: fixed;
+     display: block;
+     bottom: 10px;
+     right: 10px;
+     padding: 15px;
+     outline: none;
+    border: none;
+     z-index: 99;
+     border-radius: 10px;
+     cursor: pointer;
+
+   }
+    
+ 
+  #id5
+  {
+   align-items: center;
+    
+  }
+  #H{
+    color: darkmagenta;
+   text-align: center;
+
+  }
+  
+  .bg1{
+    background-color: rgb(9, 9, 68);
+    
+  }
+  .card{
+      background-image:linear-gradient(90deg,rgb(9, 9, 68),gray,rgb(9, 9, 68));
+    ;
+  }
+  #car{
+      background-image: (90deg,skyblue,gray,skyblue);
+  }
+  .back{
+      background-image: url('about.jpeg');
+      height: 400px;
+  }
+  .colo{
+      background-color:black;
+      opacity: 80%;
+  }
+  #brand{
+      font-style: bold;
+      font-family:fantasy;
+      color: darksalmon;
+  }
+  #brand{
+    font-style: bold;
+    font-family:fantasy;
+    color: darksalmon;
+}
+
+.with{
+  margin: 10px;
+  
+  font-size: 30px;
+ 
+}
+

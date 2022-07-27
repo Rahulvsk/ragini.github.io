@@ -1,0 +1,95 @@
+#hi{
+    height:5px;
+    width: 5px;
+    background-color: hsl(208, 100%, 97%);
+    border-radius: 50%;
+    border:2px solid blue;
+}
+#but{
+    border-radius:10%;
+    color: white;
+}
+.but2{
+   border: 3px solid rgb(79, 79, 224);
+   border-radius: 10%;
+   margin-left:10px;
+   margin-top: 50px;
+}
+#inline{
+    color:#99ccff;
+}
+/* .para .head1{
+    margin:50px;
+} */
+ .head2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+} 
+#div1{
+    background-color:#4da6ff;
+    height: 400px;
+}
+#para{
+    background-color: white;
+    border-bottom-left-radius: 30px;
+  
+    
+}
+.a1{
+padding-bottom:30px;
+text-decoration: none;
+line-height: 30px;
+}
+.an{
+    margin-right: 5px;
+    padding: 3px;
+    border: 2px solid white;
+    width: 30px;
+   }
+    #an{
+        width: 30px;
+    }
+ @media  screen and (max-width:600px)
+  {
+   #para{
+       margin-top: -35px;
+       padding-left: 20px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       display: block;
+   }  
+ }
+ .anc{
+     padding:10px;
+     margin: 10px;
+     border: 1px solid white;
+     border-radius: 10%;
+ }
+.logo{
+  
+  margin: 10px;
+ 
+  border: 3px solid black;
+ 
+ 
+}
+#demo{
+    text-align: center;
+    margin-bottom: 20px; 
+}
+#demo>div{
+    /* text-align: center;
+    margin-bottom: 20px; */
+    display: inline;
+    width: 500px;
+}
+/* .sign{
+    padding: 5px;
+    margin-right: 150px;
+    width: 50px;
+} */
+#ic{
+    font-size: 30px;
+}

@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+   
+
+    <title>FAQS</title>
+    <style>
+      nav{
+        background-image: linear-gradient(90deg,rgb(9, 9, 68),gray,rgb(9, 9, 68));
+        }
+        #text{
+          color: aqua;
+          text-decoration: none;
+        }
+        #ic{
+          font-size: 30px;
+          color: white;
+          border: 2px solid;
+          height: 40px;
+          width: 50px;
+          border-radius: 50px;
+          background-color: black;
+         }
+         #rr{
+          right: -50px;
+          z-index: 2;
+          bottom: 150px;
+          position: fixed;
+          transform: rotate(90deg);
+          background-color: skyblue;
+      }
+      .child{
+   
+        border-bottom: 2px solid rgb(8, 43, 67)
+       }
+       .with{
+         margin: 10px;
+        font-size: 25px;
+       
+       }
+       .bg1{
+        background-color: rgb(9, 9, 68);
+        
+      }
+       
+   </style>
+  </head>
+  <body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class=" text-center">
+              <div class="child">
+              <h5 style="color: rgb(8, 52, 65);">Continue With</h5>
+              
+              <a href="https://www.google.com" class="with"><i class="fa fa-google"></i></a>
+              <a href="https://www.facebook.com" class="with"><i class="fa fa-facebook"></i></a>
+                
+             
+              <a href="https://www.twitter.com" class="with"><i class="fa fa-twitter"></i></a>
+              
+            </div>
+            </div>
+            
+           
+              <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                  <input type="tel" maxlength="10" class="form-control" id="exampleFormControlInput1" placeholder="Enter Phone Number">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Password</label>
+                  <input type="password"  class="form-control" id="exampleFormControlInput1" placeholder="Enter Password ">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Write Your Massage</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+          </div>
+          <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             <button type="button" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row bg1">
+        <div class="col-md-9">
+          <kbd class="bg1">+91 9876543210|learn@infouniv.com</kbd>
+        </div>
+        <div class="col-md-3">
+          <kbd class="bg1"><a href="#/" id="text">Blog </a>|
+            <a href="faq.html" id="text">FAQs</a> |
+            <a href="#/" id="text">Events</a>
+          </kbd>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="font-style: bold;
+        font-family:fantasy;
+        color: darksalmon;">Edustage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html" id="text">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_Us.html" id="text">About_us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" id="text">Contact_us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="text">service</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="text" style="color: aqua;">
+                Courses
+              </a>
+              <ul style="background-color: rgb(8, 66, 66);" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a style="color:aqua" class="dropdown-item" href="#">Python</a></li>
+                <li><a  style="color:aqua"class="dropdown-item" href="#">Java</a></li>
+                <li><a  style="color:aqua"class="dropdown-item" href="#">Html</a></li>
+                <li><a  style="color:aqua"class="dropdown-item" href="#">Css</a></li>
+                <li><a  style="color:aqua"class="dropdown-item" href="#">Bootstrap</a></li>
+                <li><a  style="color:aqua"class="dropdown-item" href="#">Javascript</a></li>
+                <li><a  style="color:aqua"class="dropdown-item" href="#">Mysql</a></li>
+                <li><a  style="color:aqua"class="dropdown-item" href="#">Django</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit"><i class="fa fa-search" id="text"></i></button>
+            <button class="btn" style="background-color: aqua; color:black" type="submit" id="text" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+ <div class="container text-center m-lg-auto">
+   <h3>How We Can Help You</h3>
+    <form class="">
+      <div class="input-group"> 
+      <input class="form-control d-inline-block bg-light" type="search" placeholder="Search" aria-label="Search" >
+      <span class="input-group-text"><i class="fa fa-search" style="color: rgb(8, 43, 67);"></i></span>
+      </div> 
+      </form>
+      </div>
+    
+    <div>
+      <button class="btn" id="rr" data-bs-toggle="modal" data-bs-target="#exampleModal" ><i class="fa fa-phone" style="font-size:24px;"></i>Request call </button>
+  </div>
+  <div class="modal fade" id="raginiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email-Id</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Password">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">password</label>
+            <input type="password" class="form-control"  id="exampleFormControlInput1" placeholder="Enter Phone Number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Phone No</label>
+            <input type="tel" class="form-control" maxlength="10" id="exampleFormControlInput1" placeholder="Enter Phone Number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">City</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Enter Your City"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="write Your Massage" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Register</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  
+ 
+<div class="accordion mt-5 container" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is the academic calendar for universities?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            The academic year usually runs from August through May with breaks for holidays. Most 
+            universities use either the semester system (two terms), the quarter system (students attend three out of four total terms), or the trimester system (three terms).
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            What is the difference between "Undergraduate" and "Graduate" degrees?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            Undergraduate programs follow high school and lead to an associate (two-year) degree or a 
+            bachelor (four-year) degree. Graduate programs follow a bachelor's degree and lead to a master's or 
+            doctoral degree.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What are the different types of  graduate degrees?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+            Masters: two-year degree providing additional specialization. Doctorate: five to eight-year 
+            program certifying the student as a trained research scholar and/or professor.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            What is distance education?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Distance education occurs when a student and an instructor are in different places. Learning 
+            occurs by mail, telephone, internet, or by other means.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            What is the difference between state and private universities?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            State universities are funded by the state and are generally larger and less expensive than 
+            private universities.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            What is your campus culture and environment?
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio saepe quidem explicabo libero, quas iusto ullam ratione dignissimos itaque sunt quam quo nostrum illum laboriosam quod facilis ea tempore quaerat!
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            How helpful and accessible are instructors?
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quam corrupti reprehenderit laboriosam. Voluptas eius alias voluptatibus est magni temporibus, nostrum atque, molestias possimus eveniet accusantium quia recusandae cum quasi?
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            What are the tutoring centers like at your university?
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia fugit magnam, repudiandae eius illo amet cum officiis soluta debitis molestiae explicabo, vel odio ipsa exercitationem quisquam culpa harum molestias! Deserunt!
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            What is campus student life like?
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam distinctio, placeat esse iste nihil sapiente, optio quidem explicabo in ullam voluptatum dicta ratione quasi sequi, debitis rem obcaecati laboriosam.
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            What are popular student clubs on your campus?
+          </button>
+        </h2>
+        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, id amet eligendi sed voluptates nesciunt dolor, officiis consequuntur eveniet ullam dicta, labore at odit inventore modi. Consectetur architecto quas id.
+          </div>
+        </div>
+      </div>
+      </div>
+  
+
+  
+    <footer data-aos="flip-right" class="page-footer font-small"style=" background-image: linear-gradient(90deg,rgb(9, 54, 54),rgb(13, 13, 42),rgb(9, 54, 54));">
+
+      <!-- Footer Links -->
+      <div class="container mt-4  text-center text-md-left">
+    
+        <!-- Grid row -->
+        <div class="row">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h3 class="font-weight-bold text-uppercase mt-3 mb-4" style="color:white">More About University
+              <i class="fa fa-institution"></i>
+            </h3>
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" style="text-decoration: none; color:aqua">university, institution of higher education, usually comprising a college of liberal arts and sciences and graduate and professional schools and having the authority to confer degrees in various fields of study.
+               
+                </a>
+              </li>
+              
+              
+    
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h3 class="font-weight-bold text-uppercase mt-3 mb-4" style="color:white">Resister</h3>
+    
+            <ul class="list-unstyled">
+              <li class="mt-4">
+                <a href="#!"  id="text" style="color:aqua">Email</a>
+                 <li class="mt-4">
+                <a href="#!"><input type="text" style="width:200px; border-radius:20px;"  placeholder="Enter Email"></a>
+              </li>
+              <li>
+                <a href="#!"><button class="btn mt-4" data-bs-toggle="modal" data-bs-target="#raginiModal" style="height: 40px ;width:100px; background-color:aliceblue;border:2px solid gray" data-bs-toggle="modal" data-bs-target="#raginiModal" > Register</button></a>
+              </li>
+              
+    
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color:white">Course</h5>
+    
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!"  id="text">Full Stack Python</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" id="text">Full Stack Java</a>
+              </li >
+              <li class="mb-2">
+                <a href="#!"  id="text">Embedded</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!"  id="text">Machine Learning</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!"  id="text">Artificial intelligence</a>
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mx-auto">
+    
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style="color:white ">Contact</h5>
+    
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#! "  id="text">info@gmail.com</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!"  id="text">Bangluru</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!"  id="text">mysuru,Rd,Jnana Bharathi ,Karnataka 4545</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" id="text" >Link 4</a>
+              </li>
+            </ul>
+    
+          </div>
+          <div>
+              <a href="https://www.facebook.com"><i class="fa fa-facebook" id="ic"></i></a>
+              <a href="https://www.instagram.com"><i class="fa fa-instagram" id="ic"></i></a>
+              <a href="https://www.twitter.com"><i class="fa fa-twitter" id="ic"></i></a>
+              <a href="https://www.google.com"><i class="fa fa-google" id="ic"></i></a>
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row -->
+    
+      </div>
+      <!-- Footer Links -->
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="/"  id="text">Ourwebsite.com</a>
+      </div>
+      <!-- Copyright -->
+    
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+          offset:120,
+          duration: 3000
+        }
+      );
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
